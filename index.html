@@ -8,6 +8,29 @@
         body{
             background-color: rgb(3, 66, 107);
             color: red;
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+
+        a{
+            color: white; 
+            background-color: #123;
+            padding: 15px;
+            border-radius: 20px;
+            text-decoration: none; 
+            font-size: 40px; 
+            font-weight: bold; 
+            letter-spacing: 7px; /* جرب 10 بدل 50 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        a:hover{
+            background-color: rgb(17, 74, 189);
         }
 /* 
         div{
@@ -42,7 +65,11 @@
     <div onclick="setColor(this.id)" id="blue"></div>
     <div onclick="setColor(this.id)" id="green"></div>
     <div onclick="setColor(this.id)" id="black"></div> -->
-<a href="dom.html" style="color: white; text-decoration: none; font-size: 20px; font-weight: bold;">روح كمل الاساسيات في الاجفا اسكربت الدوم والبوم</a>
+
+
+
+<a href="dom.html" target="_blank">GO TO DOM & BOM</a>
+
     <script src="main.js"></script>
 </body>
 </html>
