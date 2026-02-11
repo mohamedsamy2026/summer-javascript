@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summer Dom Javascript</title>
+    <style>
+        body{
+            background-color: rgb(4, 70, 135);
+            border: 5px solid aquamarine;
+            padding: 30px;
+            border-radius: 20px;
+            color: white;
+            margin-left: 30px;
+        }
+        a{
+            display: inline-block;
+            font-size: 30px;
+            border: 3px solid rgb(0, 255, 85);
+            padding: 15px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            text-decoration: none;
+            color: aqua;
+            transition: all 0.3s ease;
+        }
+        a:hover{
+            background-color: aqua;
+            color: white;
+        }
+        label{
+            font-size: 18px;
+        }
+        label,input{
+            margin: 20px 0;
+            border: none;
+            padding: 8px;
+            border-radius: 10px;
+            
+        }
+        form{
+            border: 3px solid rgb(102, 255, 0);
+            border-radius: 20px;
+            max-width: 300px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        img{
+            background-color: rgb(3, 101, 133);
+            margin: 0 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            opacity: 0.8;
+            transition: all 0.3s ease;
+        }
+        .image{
+            width: 400px;
+            background-color: rgb(9, 107, 193);
+            padding: 20px;
+            border-radius: 15px;
+        }
+        img:hover{
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <main id="main">
+        <h1>Mohamed Samy</h1>
+
+        <ul>
+            <div class="item">Hello1</div>
+            <div class="item">Hello2</div>
+            <div class="item">Hello3</div>
+            <div class="item">Hello4</div>
+        </ul>
+
+        <p>Lorem, ipsum dolor.</p>
+        <p>Lorem, ipsum.</p>
+
+        <a href="https://mohamedsamy2026.github.io/my-website/">Mohamed Samy</a><br>
+        <a href="https://google.com">Google</a>
+
+        <form>
+            <label>Name</label>
+            <input type="text" name="Name"><br>
+
+            <label>Email</label>
+            <input type="text" name="Email">
+
+        </form>
+        <div class="image">
+
+            <img src="img/Apple_Watch_Series_9_GPS_45mm_Starlight.webp" width="150px" alt="">
+            <img src="img/belt.webp" width="150px" alt="">
+        </div>
+    </main>
+
+    <script src="dom.js"></script>
+</body>
+</html>
