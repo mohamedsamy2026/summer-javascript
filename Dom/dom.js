@@ -51,7 +51,7 @@ querySelectorAll()
 // DOM Selectors End
 
 
-// Dom imag links forms  Start
+// Dom image links forms  Start
 
 
 // console.log(document.documentElement)
@@ -93,5 +93,8 @@ querySelectorAll()
 // console.log(document.images[0].src)
 
 
-// Dom imag links forms End
+// Dom image links forms End
+
+
+
 
