@@ -114,7 +114,7 @@ removeAttribute()
 
 // Code Dom Start
 
-const mylink = document.querySelector(".link")
+// const mylink = document.querySelector(".link")
 
 // دي بتعمل  لو عايز تجيب قيمه عنصر من html 
 //getAttribute() 
@@ -183,8 +183,8 @@ nextElementSibling()
 
 */
 
-const navlist = document.querySelector(".nav-list")
-const navlistsacend = document.querySelector("ul li:nth-child(2)")
+// const navlist = document.querySelector(".nav-list")
+// const navlistsacend = document.querySelector("ul li:nth-child(2)")
 
 // بتجيب الابناء بتاع العنصر تمام
 // children 
@@ -227,3 +227,100 @@ const navlistsacend = document.querySelector("ul li:nth-child(2)")
 // console.log(navlistsacend.parentElement)
 
 // بردو لو عايز اوصل  لعناصر وبناء وكده ينتهي
+
+
+
+
+
+// Create Element Dom Start
+
+/*
+createElement()
+
+appendChild()
+
+append()
+
+createTextNode()
+*/
+
+
+// لو عايز تنشأ عنصر تمام
+const  ul = document.createElement("ul")
+
+const navclass  = ul.setAttribute("class","nav-list")
+
+// const  li1 = document.createElement("li")
+// const  li2 = document.createElement("li")
+// const  li3 = document.createElement("li")
+// const  li4 = document.createElement("li")
+
+
+
+
+// appendChild
+// دي لو انت عايز تحط عنصر جوه قئمه مثلا انتع ملت الي اي وعايز تحطه جوه اليو الي فبتعمل دي  تمام
+// ul.appendChild(li1)
+// ul.appendChild(li2)
+// ul.appendChild(li3)
+// ul.appendChild(li4)
+
+
+
+// append
+// لو انت عايز تعمل اختصار بدل ما تعمل اربع سطور كده تمام
+
+// ul.append(li1,li2,li3,li4)
+
+
+// createTextNode()
+// دي ول عايز تضيف تيكست جوه الال اي تمام
+
+// const liText1 = document.createTextNode("Home")
+// const liText2 = document.createTextNode("ِAbout")
+// const liText3 = document.createTextNode("Servieses")
+// const liText4 = document.createTextNode("Contact")
+
+// li1.appendChild(liText1)
+// li2.appendChild(liText2)
+// li3.appendChild(liText3)
+// li4.appendChild(liText4)
+
+// console.log(ul)
+
+// document.body.appendChild(ul)
+
+
+
+// نفترض عندنا 5 لسته هنفضل نعمل ونكرر الكود ده مش منطقي فهنعمل فنكشن عشان الدنيا تكون مترتبه
+
+// function create_ul(textNode){
+//  let li = document.createElement("li")
+
+//  let textLi = document.createTextNode(textNode)
+
+//  li.appendChild(textLi)
+//  ul.appendChild(li)
+// }
+// create_ul("Home")
+// create_ul("About")
+// create_ul("Serveises")
+// create_ul("Contact")
+
+// document.body.appendChild(ul)
+
+// Create Element Dom End
+
+
+
+
+
+
+
+
+// Dom Events Start
+
+
+
+
+// Dom Events End
