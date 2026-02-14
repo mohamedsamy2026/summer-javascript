@@ -98,3 +98,132 @@ querySelectorAll()
 
 
 
+
+
+/*
+The properties 
+
+getAttribute()
+
+setAttribute()
+
+removeAttribute()
+
+
+*/
+
+// Code Dom Start
+
+const mylink = document.querySelector(".link")
+
+// دي بتعمل  لو عايز تجيب قيمه عنصر من html 
+//getAttribute() 
+
+// console.log(mylink.getAttribute("class"))
+// console.log(mylink.getAttribute("href"))
+
+
+
+
+
+// دي لو عايز تضيف عنصر تمام 
+// setAttribute()
+
+// mylink.setAttribute("id","min")
+
+// console.log(mylink)
+
+
+
+
+
+// دي لو عايز تحذف عنصر تمام 
+// setAttribute()
+
+// mylink.removeAttribute("id")
+
+// console.log(mylink)
+
+
+
+
+// دي لو عايز تتأكد من عنصر تمام 
+// setAttribute()
+
+// console.log(mylink.hasAttribute("class"))
+// console.log(mylink.hasAttribute("id"))
+
+
+// Code Dom End
+
+/*
+في تلت حجات بيعدلو النصوص 
+
+[1] innerHTML
+[2] innerText
+[3] textContent ده المستخدم كتيررررر
+
+*/
+
+
+// بردو لو عايز اوصل  لعناصر وبناء وكده يبدأ
+
+/*
+
+children()
+
+firstElementChild()
+
+lastElementChild()
+
+previousElementSibling()
+
+nextElementSibling()
+
+
+*/
+
+const navlist = document.querySelector(".nav-list")
+const navlistsacend = document.querySelector("ul li:nth-child(2)")
+
+// بتجيب الابناء بتاع العنصر تمام
+// children 
+
+// console.log(navlist.children)
+
+
+
+
+// بتجيب اول عنصر في القائمه 
+// firstElementChild 
+
+// console.log(navlist.firstElementChild)
+
+
+
+// بتجيب اخر عنصر في القائمه 
+// lastElementChild 
+
+// console.log(navlist.lastElementChild)
+
+
+
+// بتجيب العنصر الي قبليه عنصر في القائمه 
+// previousElementSibling 
+
+// console.log(navlistsacend.previousElementSibling)
+
+
+
+// بتجيب العنصر الي بعديه عنصر في القائمه 
+// nextElementSibling 
+
+// console.log(navlistsacend.nextElementSibling)
+
+
+// بتجيب الاب بتاع الابناء
+// nextElementSibling 
+
+// console.log(navlistsacend.parentElement)
+
+// بردو لو عايز اوصل  لعناصر وبناء وكده ينتهي
