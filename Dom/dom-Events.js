@@ -49,9 +49,3 @@ const btn = document.querySelector(".btn");
 
 // Dom Events End
 
-
-
-
-
-
-
